@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owl Carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+      <div class="info">
+        <img
+          src="https://storage.pixteller.com/designs/designs-images/2016-11-19/02/thumbs/img_page_1_58305b35ebf5e.png"
+          alt="profile photo"
+          style="width: 150px"
+          class="slider-img"
+        />
+        <div>
+          <h3>Your Name</h3>
+          <h4>Title</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
+            amet ut fugiat ad ex omnis eum eaque dolore velit aliquid dolores
+            voluptatem quas quibusdam, doloremque officia nihil eius quisquam
+            blanditiis?
+          </p>
+        </div>
+      </div>
+
+      <div class="info">
+        <img
+          src="https://storage.pixteller.com/designs/designs-images/2016-11-19/02/thumbs/img_page_1_58305b35ebf5e.png"
+          alt="profile photo"
+          style="width: 150px"
+          class="slider-img"
+        />
+        <div>
+          <h3>Your Name</h3>
+          <h4>Title</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae,
+            tenetur nemo voluptas inventore sapiente commodi! Delectus, maxime
+            hic ipsam, dicta laboriosam fugiat nam totam iste reiciendis
+            recusandae culpa architecto nemo.
+          </p>
+        </div>
+      </div>
+      <div class="info">
+        <img
+          src="https://storage.pixteller.com/designs/designs-images/2016-11-19/02/thumbs/img_page_1_58305b35ebf5e.png"
+          alt="profile photo"
+          style="width: 150px"
+          class="slider-img"
+        />
+        <div>
+          <h3>Your Name</h3>
+          <h4>Title</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            omnis suscipit hic, sit sunt delectus, ullam quae illo itaque
+            repellat nobis, amet a mollitia nemo perferendis quam minima eos!
+            Facilis.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>
